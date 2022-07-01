@@ -46,7 +46,7 @@ const Main = () => {
         <span>Download App</span>
       </a>
 
-      <section aria-labelledby="qualities" className="relative">
+      <section aria-labelledby="qualities" className="relative lg:flex">
         <h2 id="qualties" className="sr-only">
           Our Qualities
         </h2>

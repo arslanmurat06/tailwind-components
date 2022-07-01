@@ -45,6 +45,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div
+          tabIndex="0"
           className={`
             ${isOpen ? `block` : `hidden`}
           flex
