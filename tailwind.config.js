@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        big: "48rem",
+      },
+    },
+    fontFamily: {
+      nunito: ["Nunito", "sans-serif"],
+    },
   },
+
   plugins: [],
 };
