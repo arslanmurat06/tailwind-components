@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 bg-white w-full">
       <div className="container mx-auto py-5 flex justify-between items-center px-5">
-        <h1 className="text-indigo-600 font-bold italic">MARSTECH</h1>
+        <h1 className="text-indigo-600 font-bold italic cursor-pointer">
+          MARSTECH
+        </h1>
 
         <Menu />
         <MobileMenu />
